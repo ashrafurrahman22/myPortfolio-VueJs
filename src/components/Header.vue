@@ -4,9 +4,9 @@
         <div className="lg:hero-content my-8 gap-x-20 flex-col lg:flex-row-reverse">
             <img  src="https://ashrafur-rahman-portfolio.netlify.app/static/media/OPU%20PIC.7ff55765a87e24c11225.jpg" className="max-w-sm rounded-xl shadow-2xl mx-auto" />
             <div>
-                <h1 className="lg:text-5xl lg:text-left text-center text-3xl font-semiBold">Ashrafur Rahman</h1>
+                <h1 id="myName" className="lg:text-5xl lg:text-left text-center text-3xl lg:pt-0 pt-5 font-bold">Ashrafur Rahman</h1>
                 <h3 id='typewriter'
-                 className="py-6 lg:text-3xl text-center break-words text-sm font-md">
+                 className="py-6 lg:text-3xl text-xl text-center break-words font-medium">
                      Junior Front-End Web Developer
                  </h3>
 
@@ -34,8 +34,12 @@ export default {
      padding-top: 30px;
  }
 
+#myName {
+    font-family: aleo;
+}
 
 #typewriter { 
+    font-family: aleo;
     overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .15em solid orange; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */

@@ -1,12 +1,12 @@
 <template>
-    <div className='min-h-screen px-20 py-10 bg-base-300'>
+    <div className='min-h-screen lg:px-20 px-5 py-10 bg-base-300'>
             <div>
             <div className="lg:hero lg:p-12 p-5 bg-base-200 rounded-lg">
         <div className="lg:hero-content lg:mx-0 mx-auto  lg:gap-x-20 flex-col lg:flex-row-reverse">
             <img src="https://ashrafur-rahman-portfolio.netlify.app/static/media/OPU%20PIC.7ff55765a87e24c11225.jpg" className="max-w-sm lg:mx-0 mx-auto rounded-lg shadow-2xl" />
             <div>
                 <div className='lg:text-left text-center'>
-                <h1 className="lg:text-5xl text-2xl font-bold">Ashrafur Rahman</h1>
+                <h1 className="lg:text-5xl text-2xl lg:pt-0 pt-5 font-bold">Ashrafur Rahman</h1>
                 <h3 className="py-6 lg:text-3xl text-xl font-semibold">
                      Jr. Front-End Web Developer
                  </h3>

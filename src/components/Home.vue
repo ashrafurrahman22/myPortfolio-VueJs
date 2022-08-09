@@ -1,5 +1,5 @@
 <template>
-<div id="mainDiv" class="px-14 bg-base-300">
+<div id="mainDiv" class="lg:px-14 px-5 bg-base-300">
     <Header/>
      <div className='card w-64 bg-base-100 shadow-xl mx-auto mb-5'>
                 <div className='card-body bg-primary'>
