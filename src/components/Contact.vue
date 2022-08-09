@@ -1,5 +1,5 @@
 <template>
-    <div className='min-h-screeen lg:p-10'>
+    <div className='min-h-screeen lg:p-10 bg-base-300'>
           <div className="lg:hero bg-base-200 lg:p-8 p-2 rounded-lg">
   <div className="hero-content flex-col lg:flex-row ">
     <div className="text-center sm:2/6 lg:w-2/6 lg:mx-16 lg:text-left">

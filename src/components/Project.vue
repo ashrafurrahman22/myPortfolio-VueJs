@@ -1,5 +1,5 @@
 <template>
-     <div className="min-h-screen lg:p-10">
+     <div className="min-h-screen lg:p-10 bg-base-300">
       <!-- {/* <div> */} -->
         <div className="grid lg:grid-cols-3 sm:grid-cols-1 gap-7">
 

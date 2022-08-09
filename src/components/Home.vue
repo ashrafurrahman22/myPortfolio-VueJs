@@ -19,6 +19,9 @@
                     </div>
                 </div>
                 <Contact/>
+                 <div className='bg-base-300 rounded-lg py-2 mt-3'>
+            <p className='text-center mb-5'>Copyright © 2022. All Rights Reserved by Developer Ashrafur Rahman.</p>
+        </div>
 </div>
 
 </template>
