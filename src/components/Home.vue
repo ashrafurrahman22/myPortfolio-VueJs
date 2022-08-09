@@ -13,12 +13,12 @@
                     </div>
                 </div>
                 <Project/>
-
-                 <!-- <div className='card lg:w-80 bg-base-100 shadow-xl mx-auto lg:mt-0 mt-4'>
-                <div className='card-body bg-primary'>
-                    <h2 className="customSkill text-center text-4xl font-bold text-white tracking-widest ">Contact</h2> <hr />
-                </div> -->
-                <!-- <Contact/> -->
+                <div className='card w-64 bg-base-100 shadow-xl mx-auto'>
+                    <div className='card-body bg-primary'>
+                        <h2 className="text-center text-4xl font-bold text-white tracking-widest">Contact</h2> <hr />
+                    </div>
+                </div>
+                <Contact/>
 </div>
 
 </template>
@@ -28,7 +28,7 @@
 import Header from './Header.vue';
 import Skills from './Skills.vue';
 import Project from './Project.vue';
-// import Contact from './Contact.vue';
+import Contact from './Contact.vue';
 
 export default {
     // eslint-disable-next-line vue/multi-word-component-names
@@ -37,7 +37,7 @@ export default {
         Header,
         Skills,
         Project,
-        // Contact
+        Contact
     }
 }
 </script>
