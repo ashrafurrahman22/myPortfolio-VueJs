@@ -3,6 +3,7 @@ import Blogs from './components/Pages/Blogs/Blogs.vue';
 import ProjectsRoute from './components/Pages/Projects/ProjectsRoute.vue';
 import ContactRoute from './components/Pages/Contact/ContactRoute.vue';
 import AboutMe from './components/Pages/AboutMe/AboutMe.vue'
+import PageNotFound from './components/Pages/PageNotFound/PageNotFound.vue';
 
 import { createRouter, createWebHistory } from 'vue-router';
 
@@ -31,6 +32,11 @@ const routes = [
         name : 'AboutMe',
         component : AboutMe,
         path : '/about'
+    },
+    {
+        name : 'PageNotFound',
+        component : PageNotFound,
+        path : '/:pathMatch(.*)*'
     }
 ];
 

@@ -1,23 +1,16 @@
 <template>
-    <div id="navBar" class="navbar bg-base-300 px-12 pt-8">
+    <div id="navBar" class="navbar px-16 bg-base-300 pt-8">
   <div class="navbar-start">
     <div class="dropdown">
       <label tabindex="0" class="btn btn-ghost lg:hidden">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
       </label>
       <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
-        <li><a>Item 1</a></li>
-        <li tabindex="0">
-          <a class="justify-between">
-            Parent
-            <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"/></svg>
-          </a>
-          <ul class="p-2">
-            <li><a>Submenu 1</a></li>
-            <li><a>Submenu 2</a></li>
-          </ul>
-        </li>
-        <li><a>Item 3</a></li>
+         <li><router-link to='/'>Home</router-link> </li>
+      <li><router-link to='/projects'>Projects</router-link> </li>
+      <li><router-link to='/contact'>Contact</router-link> </li>
+      <li><router-link to='/blogs'>Blog</router-link> </li>
+      <li><router-link to='/about'>About Me</router-link> </li>
       </ul>
     </div>
     <a class="btn btn-ghost normal-case text-xl">
